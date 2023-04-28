@@ -1,0 +1,67 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-color: #48bf91;
+  height:100vh;
+}
+
+.wrapper{
+  background-color:white;
+  padding:100px 50px 100px 50px;
+  border-radius:10px;
+}
+
+.title{
+  font-size:22px;
+  color:black;
+}
+
+.title-description{
+  color:#575757;
+}
+
+.qrcode-form{
+  display:flex;
+  flex-direction:column;
+}
+
+.qrcode-input{
+  margin-top:30px;
+  padding:10px 20px 10px 20px;
+  border-radius:5px;
+  outline:none;
+  border:1px solid #999;
+}
+.qrcode-input:focus{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+}
+
+
+.qrcode-button{
+  background-color: #48bf91;
+  border: none;
+  outline:none;
+  margin-top: 10px;
+  padding:20px;
+  border-radius:10px;
+  cursor: pointer;
+  transition: all .3s;
+  font-weight: bold;
+  color:white;
+}
+
+.qrcode-Image{
+  text-align:center;
+}
+
+.qrcode-button:hover{
+  background-color: #62d6a4;
+}
